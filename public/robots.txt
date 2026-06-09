@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://olga-conceptstore.fr/sitemap.xml
+
+# Crawl-delay (optional, courteous to crawlers)
+Crawl-delay: 1
+
+# Disallow admin paths (none currently, future-proofing)
+# Disallow: /admin/

@@ -1,0 +1,17 @@
+{
+  "name": "Olga Concept Store",
+  "short_name": "Olga CS",
+  "description": "Concept store premium à Pacy-sur-Eure — Mode, bijoux, décoration et cosmétiques.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F4",
+  "theme_color": "#C97A7A",
+  "icons": [
+    {
+      "src": "/olga-concept-store.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
