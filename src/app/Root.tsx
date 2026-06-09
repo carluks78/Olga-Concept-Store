@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { SEOHead } from "./components/SEOHead";
+import { SplashScreen } from "./components/SplashScreen";
 
 export function Root() {
   const { pathname } = useLocation();
@@ -25,10 +26,16 @@ export function Root() {
       }}
     >
       <SEOHead />
+
+      {/* ✅ SPLASH ICI */}
+      <SplashScreen />
+
       <Navbar />
+
       <main style={{ flex: 1 }}>
         <Outlet />
       </main>
+
       <Footer />
     </div>
   );
