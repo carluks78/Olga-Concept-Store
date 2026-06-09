@@ -1,0 +1,39 @@
+/* ── Smooth scroll ── */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar styling (bobo-chic) ── */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #C97A7A;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B86A6A;
+}
+
+/* ── Mobile touch feedback ── */
+@media (hover: none) and (pointer: coarse) {
+  button, a {
+    -webkit-tap-highlight-color: rgba(201, 122, 122, 0.12);
+  }
+}
+
+/* ── Selection color ── */
+::selection {
+  background-color: rgba(201, 122, 122, 0.25);
+  color: #4A3F3A;
+}
+
+/* ── Image orientation fix ── */
+img {
+  image-orientation: from-image;
+}
